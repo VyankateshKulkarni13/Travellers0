@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <!-- header starts here -->
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-hiking"></i>TraveLLers</a>
+        <nav class="navbar">
+            <div id="nav-close" class="fas fa-times"></div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#shop">Shop</a>
+            <a href="#packages">Packages</a>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <a href="register.html">Signup</a>
+            <a href="loginpg.html">Login</a>
+            <div id="search-btn" class="none"></div> 
+        </div>
+    </header>
+    <!-- Header Ends Here -->
+
+ 
+    <!-- Search Bar Starts Here -->
+    
+    <div class="search-form">
+        <div id="close-search" class="fas fa-times"></div>
+        <!-- <form action="">
+            <input type="search" name="search" placeholder="Search Here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+            <button type="submit">Search</button>
+        </form> -->
+    </div>
+    
+ 
+    <!-- Search Bar Ends Here -->
+    <!-- Home Section Starts Here-->
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box first" style="background: url(background.png) no-repeat ;">
+                        <div class="content">
+                            <span>Never Stop.... </span>
+                            <h1>Exploring the World</h1>
+                            <p>Discover new places, meet new people and share your experiences with us!</p>
+                            <a href="signup.html" class="btn">Get Started Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box second" style="background: url(background2.png) no-repeat ;">
+                        <div class="content1">
+                            <span>Make Tour </span>
+                            <h1>Amazing !</h1>
+                            <p>Discover new places, meet new people and share your experiences with us!</p>
+                            <a href="signup.html" class="btn">Get Started Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box third" style="background: url(background3.png) no-repeat ;">
+                        <div class="content2">
+                            <span>Explore the</span>
+                            <h1>New World !</h1>
+                            <p>Discover new places, meet new people and share your experiences with us!</p>
+                            <a href="signup.html" class="btn">Get Started Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div> 
+        <!-- Home Section Ends here -->
+    
+       <!-- Adventure section Starts Here-->
+        <section class="category">
+            <h1 class="heading">Adventure Ideas !</h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="adventure1.png" alt="">
+                    <h3>Paragliding</h3>
+                    <p>Paragliding is a recreational and competitive flying sport.</p>
+                    <a href="https://overflytenerife.com/paragliding-destinations/" class="btn1">read more</a>
+                </div>
+
+                <div class="box">
+                    <img src="adventure2.png" alt="">
+                    <h3>Skiing</h3>
+                    <p>Skiing is a winter sport that involves gliding over snow using skis </p>
+                    <a href="https://travel.usnews.com/rankings/best-ski-destinations/" class="btn1">read more</a>
+                </div>
+
+                <div class="box">
+                    <img src="adventure3.png" alt="">
+                    <h3>Trekking</h3>
+                    <p>hiking through natural landscapes, to explore and connect with nature. </p>
+                    <a href="https://worldexpeditions.com/Blog/top-remote-treks-in-the-world" class="btn1">read more</a>
+                </div>
+
+                <div class="box">
+                    <img src="adventure4.png" alt="">
+                    <h3>River Rafting</h3>
+                    <p>Rafting is a highly dynamic activity that is always unique .</p>
+                    <a href="https://www.nwrafting.com/river-descriptions/worlds-13-legendary-river-trips" class="btn1">read more</a>
+                </div>
+
+        </section>
+        <!-- Adventure section ends here -->
+
+        
+       <!-- packages section starts here -->
+       <section class="packages" id="packages">
+        <h2 class="heading">Explore Our Packages</h2>
+        <div class="box-container">
+          <div class="box1">
+            <img src="place1.jpg" alt="Place 1">
+            <h3>LONDON</h3>
+            <p>Discover the beauty of Place 1 with our exclusive package.</p>
+            <a href="https://fullsuitcase.com/london-hidden-gems/" class="btn1">Learn More</a>
+          </div>
+          <div class="box1">
+            <img src="place2.jpg" alt="Place 2">
+            <h3>BALI</h3>
+            <p>Experience the adventure of Place 2 with our customized package.</p>
+            <a href="https://www.makemytrip.com/tripideas/places-to-visit-in-bali" class="btn1">Learn More</a>
+          </div>
+          <div class="box1">
+            <img src="place3.jpg" alt="Place 3">
+            <h3>LAKSHDWEEP</h3>
+            <p>Explore the culture of Place 3 with our cultural package.</p>
+            <a href="https://www.holidify.com/places/lakshadweep-islands/sightseeing-and-things-to-do.html" class="btn1">Learn More</a>
+          </div>
+          <div class="box1">
+            <img src="place4.jpg" alt="Place 4">
+            <h3>KASHMIR</h3>
+            <p>Relax and unwind in the serenity of Place 4 with our luxury package.</p>
+            <a href="www.makemytrip.com/tripideas/blog/places-to-visit-in-kashmir" class="btn1">Learn More</a>
+          </div>
+          <div class="box1">
+            <img src="place5.jpg" alt="Place 1">
+            <h3>DUBAI</h3>
+            <p>Discover the beauty of Place 1 with our exclusive package.</p>
+            <a href="https://www.holidify.com/places/dubai/sightseeing-and-things-to-do.html" class="btn1">Learn More</a>
+          </div>
+          <div class="box1">
+            <img src="place6.jpg" alt="Place 1">
+            <h3>CUBA</h3>
+            <p>Discover the beauty of Place 1 with our exclusive package.</p>
+            <a href="https://www.lonelyplanet.com/articles/best-places-to-visit-in-cuba" class="btn1">Learn More</a>
+          </div>
+          <div class="box1">
+            <img src="place7.jpg" alt="Place 1">
+            <h3>KEDARNATH</h3>
+            <p>Discover the beauty of Place 1 with our exclusive package.</p>
+            <a href="https://www.makemytrip.com/tripideas/places-to-visit-in-kedarnath" class="btn1">Learn More</a>
+          </div>
+          <div class="box1">
+            <img src="place8.jpg" alt="Place 1">
+            <h3>COLOMBIA</h3>
+            <p>Discover the beauty of Place 1 with our exclusive package.</p>
+            <a href="https://www.nomadicmatt.com/travel-blogs/best-places-colombia/" class="btn1">Learn More</a>
+          </div>
+          <div class="box1">
+            <img src="place9.jpg" alt="Place 1">
+            <h3>BRAZIL</h3>
+            <p>Discover the beauty of Place 1 with our exclusive package.</p>
+            <a href="https://www.greatvaluevacations.com/travel-inspiration/brazil-top-destinations" class="btn1">Learn More</a>
+          </div>
+        </div>
+        <div class="btn-container">
+            <a href="packages.html" class="btn2">Explore More</a>
+          </div>
+      </section>
+      <!-- packages section ends here -->
+      <!-- shop section starts here -->
+     
+        <section class="shop" id="shop">
+            <h1 class="heading">Some Travelling Products</h1>
+        
+            <div class="product-container">
+        
+                <div class="product">
+                    <img src="bagpack.jpg" alt="Backpack">
+                    <h3>Backpack</h3>
+                    <p>A durable and spacious backpack for your travel essentials.</p>
+                    <a href="https://www.amazon.com/s?k=backpack" target="_blank" class="btn1">Buy Now</a>
+                </div>
+        
+                <div class="product">
+                    <img src="shoes.png" alt="Travel Shoes">
+                    <h3>Travel Shoes</h3>
+                    <p>Comfortable and stylish shoes for your travel adventures.</p>
+                    <a href="https://www.amazon.com/s?k=travel+shoes" target="_blank" class="btn1">Buy Now</a>
+                </div>
+        
+                <div class="product">
+                    <img src="tent.png" alt="Camping Tent">
+                    <h3>Camping Tent</h3>
+                    <p>A compact and easy-to-setup tent for camping enthusiasts.</p>
+                    <a href="https://www.amazon.com/s?k=camping+tent" target="_blank" class="btn1">Buy Now</a>
+                </div>
+        
+                <div class="product">
+                    <img src="Bottle.png" alt="Bottle">
+                    <h3>Bottle</h3>
+                    <p>A reusable water bottle for your travel comfort.</p>
+                    <a href="https://www.amazon.com/s?k=reusable+water+bottle" target="_blank" class="btn1">Buy Now</a>
+                </div>
+            </div>
+        </section>
+         <!-- Shop section ends here -->
+
+
+      <!-- about section starts here -->
+      <section class="about" id="about">
+
+        <div class="image">
+            <img src="Trip2.png" alt="" >
+        </div>
+        <div class="content">
+            <h3>Memorable Outdoor Experiences</h3>
+            <p>"Welcome to Travellers. - Your Ultimate Travel Companion!<br>We are passionate about curating unforgettable experiences that transcend the ordinary. we understand the thrill of discovering new destinations and the joy of seamless planning. Our mission is to empower fellow adventurers with a user-friendly platform that simplifies trip planning, offering personalized recommendations, expert tips, and innovative tools. Whether you're a solo explorer, a family seeking adventure, or a group of friends on a getaway, Travellers. is here to make your travel dreams a reality. Let the journey begin!"</p>
+            <a href="#" class="btn">Discover More</a>
+        </div>
+    </section> 
+    <!-- About section ends here -->
+    <!-- Footer section starts here -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; TRAVELLERS. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Follow Us</a></li>
+            </ul>
+            
+
+           
+        </div>
+    </footer>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="travel.js"></script>
+</body>
+</html> 

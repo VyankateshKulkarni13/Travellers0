@@ -1,0 +1,68 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="styleslogin.css"> 
+    <title> Travellers : login Page</title>
+    <script>  
+        function validateform(){  
+        var name=document.myform.name.value;  
+        var password=document.myform.password.value;  
+          
+        if (name==null || name==""){  
+          alert("Name can't be blank");  
+          return false;  
+        }else if(password.length<6){  
+          alert("Password must be at least 6 characters long.");  
+          return false;  
+          }  
+        }  
+        </script> 
+</head>
+<body>
+    <style>
+        body{
+            background-image: url("https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+            background-size: cover;
+        }
+    </style>
+
+<div class="topcontainer">
+    <div class="container2">
+    <!-- <a href="index.html"> -->
+        <img src="logo.png" alt="logo" class="falcon" height="40px" width="40px" > 
+         <!-- </a> -->
+         <!-- <a href="register.html"> -->
+        <h1 class="txtname" > <strong>Travellers</strong> </h1>
+         <!-- </a> -->
+    </div>
+ </div>
+    <br>
+    <br>
+    <div class="regitext">
+        <h1 ><strong>Login Here</strong></h1>
+        </div>
+        <br>
+    <div class="loginform" style="margin-left: 39%; margin-right: 41%;width: 300px;">
+        <form name="myform" method="post" onsubmit="return validateform()" >  
+            <strong>Enter Username</strong>
+            <br>
+            <input type="text" name="name">
+            <br/>  
+            <br>
+
+            <strong> Password </strong>
+            <br>
+            <input type="password" name="password"><br/>  
+            <br>
+            <br>
+            <input type="submit" value="login">  
+            <input type="reset">
+    </form>
+    </div>
+        
+</body>
+</html>
